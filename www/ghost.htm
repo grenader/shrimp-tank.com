@@ -628,6 +628,20 @@ a:link.loginFormRegLink {
 
 /*gallery data display field labels end*/
 
+.container {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.25%;
+}
+.video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
 </style>
 <style id="widgetBorderBackgrounds" type="text/css">  #widget256520 { background: repeat  transparent !important; }  #widget256525 { padding:20px 20px 20px 300px !important;    }  #widget256526 { padding:0px 10px 10px 100px !important;    }  </style>
 <meta name="generator" content="www.web-deva.com" />
@@ -1739,9 +1753,14 @@ width: bold;
 
 <input type="hidden" id="itemType256525" value="SCRIPT"/>
 
-<div style="width: 100%; ; overflow-x: visible; overflow-y: visible; ">
+<div style="width: 98%; ; overflow-x: visible; overflow-y: visible; align-content: center">
     
-    <div class="widgetSCRIPTStyle" id="widget256525" widgetId="256525"><object width="660" height="525"><param name="movie" value="http://www.youtube.com/v/KY3FLtfvULw?fs=1&amp;hl=en_US&amp;color1=0x2b405b&amp;color2=0x6b8ab6&amp;border=1"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="KY3FLtfvULw-fs=1&hl=en_US&color1=0x2b405b&color2=0x6b8ab6&border=1" tppabs="http://www.youtube.com/v/KY3FLtfvULw?fs=1&hl=en_US&color1=0x2b405b&color2=0x6b8ab6&border=1" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="660" height="525"></embed></object></div>
+    <div class="widgetSCRIPTStyle"  widgetId="256525">
+        <div class="container">
+            <iframe class="video" src="https://www.youtube.com/embed/KY3FLtfvULw" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </div>
     
 </div>
 

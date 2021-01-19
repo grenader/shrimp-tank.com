@@ -897,6 +897,19 @@ width: bold;
             vertical-align: middle;
         }
 
+        .container {
+            position: relative;
+            width: 98%;
+            height: 0;
+            padding-bottom: 56.25%;
+        }
+        .video {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
 
     </style>
 <script type="text/javascript">
@@ -1689,7 +1702,12 @@ width: bold;
 
 <div style="width: 100%; ; overflow-x: visible; overflow-y: visible; ">
     
-    <div class="widgetSCRIPTStyle" id="widget256616" widgetId="256616"><object width="640" height="505"><param name="movie" value="http://www.youtube.com/v/CL1LfS4BM90?fs=1&amp;hl=en_US"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="CL1LfS4BM90-fs=1&hl=en_US" tppabs="http://www.youtube.com/v/CL1LfS4BM90?fs=1&hl=en_US" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="640" height="505"></embed></object></div>
+    <div class="widgetSCRIPTStyle" id="widget256616" widgetId="256616">
+        <div class="container">
+            <iframe class="video" src="https://www.youtube.com/embed/CL1LfS4BM90" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </div>
     
 </div>
 
